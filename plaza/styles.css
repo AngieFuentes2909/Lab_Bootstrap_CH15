@@ -17,3 +17,49 @@ Recuerda: este archivo se enlaza DESPUÉS de Bootstrap.
 La paleta es tuya: colores cálidos de plaza de mercado.
 ============================================================
 */
+:root {
+  /* Color principal tropical: Mango maduro / Papaya vibrante */
+  --bs-primary: #e85d04;
+  --bs-primary-rgb: 232, 93, 4;
+
+  /* Tipografía fresca y amigable de Google Fonts */
+  --bs-body-font-family: 'Nunito', sans-serif;
+}
+
+/* Personalización del botón primario en tono fruta tropical */
+.btn-primary {
+  --bs-btn-bg: #e85d04;
+  --bs-btn-border-color: #e85d04;
+  --bs-btn-hover-bg: #dc2f02;
+  --bs-btn-hover-border-color: #d00000;
+  --bs-btn-focus-shadow-rgb: 232, 93, 4;
+  --bs-btn-active-bg: #d00000;
+  --bs-btn-active-border-color: #ba181b;
+}
+
+/* Estilos generales para la identidad visual de frutas tropicales */
+body {
+  background-color: #fffdf9;
+  color: #2e2620;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+  font-weight: 800;
+}
+
+/* Toque cálido para títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #2d2118;
+}
+
+/* Realce suave para las tarjetas */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-color: rgba(232, 93, 4, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(232, 93, 4, 0.12) !important;
+}
